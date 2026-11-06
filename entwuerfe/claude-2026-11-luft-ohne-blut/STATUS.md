@@ -10,3 +10,4 @@
 ## Änderungen
 - 07.11.2026 Claude: Erstfassung, 3 Folien.
 - 07.11.2026 Claude: Folie 2 – zwei Beschriftungen auf zwei Zeilen umgebrochen (liefen über den Kartenrand), Karten etwas höher.
+- 07.11.2026 Bildmacher-Test erfolgreich: Die GitHub Action hat alle drei Folien (2 × HTML, 1 × SVG) als PNG 1080 × 1350 erzeugt. Die Schriften Inter Display, Inter und Liberation Serif sind korrekt geladen, `VORSCHAU.md` und `uebersicht.png` wurden angelegt. Es wurde nichts veröffentlicht oder eingeplant.

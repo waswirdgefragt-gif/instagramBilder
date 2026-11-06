@@ -8,26 +8,51 @@
 |---|---|---|
 | Text-Dateien (Markdown, HTML, SVG, JSON) schreiben | ja | ja (die README in `chatgpt_entwuerfe` stammt von ChatGPT) |
 | Bilder und GIFs (Binärdateien) hochladen | ja | derzeit nein |
-| Workflow-Dateien (GitHub Actions) anlegen | ja | unbekannt |
+| Workflow-Dateien (GitHub Actions) anlegen | ja | unbekannt (nicht nötig) |
 | Dateien oder Zweige löschen | nein (Zugriff gesperrt) | – |
 
-## Vorgeschlagener Ablauf: Entwürfe als Quelltext
+## Ablauf (seit 7.11.2026 eingerichtet und getestet)
 
-Bilder von ChatGPT kommen nicht direkt ins Repository. Deshalb **speichert ChatGPT jede Grafik als Quelltext**, also als HTML/CSS oder SVG. Das ist reiner Text, und den kann ChatGPT schreiben. Ein **automatischer Bildmacher** (GitHub Action) erzeugt daraus bei jedem Hochladen die fertigen Bilder.
+ChatGPT und Claude speichern jede Folie als **Quelltext** (HTML oder SVG). Der **Bildmacher** (GitHub Action `.github/workflows/bildmacher.yml`) erzeugt daraus nach jedem Hochladen automatisch die fertigen Bilder und eine Vorschauseite. Niemand muss Dateien zwischen den Chats übertragen.
+
+### Ordner und Dateinamen
 
 ```
 entwuerfe/
-  2026-11-arterieller-verschluss/
-    quelle/           <- ChatGPT oder Claude legt HTML/SVG ab (je Folie eine Datei)
-    bilder/           <- wird automatisch erzeugt: folie_01.png … (1080 × 1350)
-    pruefung.md       <- Prüfung und Empfehlungen der jeweils anderen KI
-    STATUS.md         <- Entwurf / geprüft / FREIGEGEBEN (nur Mariam setzt FREIGEGEBEN)
+  <autor>-<JJJJ-MM>-<thema>/          z. B. chatgpt-2026-11-arterieller-verschluss, claude-2026-11-luft-ohne-blut
+    quelle/
+      folie_01.html  oder  folie_01.svg  (je Folie eine Datei, zweistellig nummeriert)
+      folie_02_v2.html                   (Überarbeitung = neue Datei, Original bleibt)
+      bilder_hilfe/…                     (optional: eingebettete Grafiken, nur relative Pfade)
+    bilder/                              <- AUTOMATISCH: folie_01.png … (1080 × 1350) und uebersicht.png
+    VORSCHAU.md                          <- AUTOMATISCH: alle Bilder zum Ansehen direkt auf GitHub
+    STATUS.md                            <- Status, Prüfung, Änderungsprotokoll (von Hand)
+    pruefung_claude.md / pruefung_chatgpt.md   <- Rückmeldung der jeweils anderen KI
+vorlagen/   beispiel_folie.html, beispiel_folie.svg (Startpunkt, frei veränderbar)
+werkzeuge/  bildmacher.py, schriften/ (Inter, Inter Display, Liberation Serif; Emoji wird ergänzt)
 ```
 
-- **Animationen:** HTML/CSS-Animationen werden auf dieselbe Weise automatisch zu MP4 bzw. GIF.
-- **KI-Bilder** (gemalte Illustrationen aus einem Bildgenerator) lassen sich so nicht abbilden. Dafür gibt es eine Ausnahme: Mariam lädt die Datei **einmal** direkt auf GitHub hoch, über *Add file → Upload files* im richtigen Ordner, auch vom Handy-Browser aus. Ein Umweg über den anderen Chat ist nicht nötig.
-- **Prüfung:** Die andere KI liest den Ordner und schreibt ihre Rückmeldung in `pruefung.md`. Überarbeitungen kommen als **neue** Dateien dazu (`folie_02_v2.html`). Originale werden nie überschrieben.
-- **Freigabe:** Mariam schaut sich die Bilder in `bilder/` an und sagt im Chat ausdrücklich „Beitrag X freigegeben“. Erst dann darf veröffentlicht oder eingeplant werden.
+In `bilder/` und `VORSCHAU.md` bitte nichts von Hand ändern, sie werden bei jeder Änderung der Quelle neu erzeugt.
+
+### Regeln für Quelltexte
+
+- **Format:** Die Fläche ist genau 1080 × 1350 Pixel. In HTML `html,body{width:1080px;height:1350px;margin:0;overflow:hidden}` setzen. In SVG `width="1080" height="1350" viewBox="0 0 1080 1350"`.
+- **Schriften:** `Inter`, `Inter Display` und `Liberation Serif`. Emojis sind möglich. Andere Schriften stehen nicht zur Verfügung, und es wird ersatzweise eine Standardschrift genommen.
+- **Keine Internet-Inhalte:** Keine Google Fonts, keine Bilder von fremden Seiten, keine Skripte aus dem Netz. Der Bildmacher blockiert alle Netzzugriffe. Bilder entweder als Datei im Ordner `quelle/` mit relativem Pfad oder direkt als `data:`-Adresse einbetten.
+- **Inhalt, der über die Fläche hinausragt,** wird abgeschnitten. Der Bildmacher meldet das in `VORSCHAU.md`.
+- **Animationen** (HTML/CSS) sind der nächste Schritt und noch nicht eingerichtet.
+
+### Ablauf in drei Schritten
+
+1. **Erstellen:** ChatGPT oder Claude legt einen neuen Beitragsordner mit Quelltexten und `STATUS.md` an. Nach etwa 2–3 Minuten erscheinen `bilder/` und `VORSCHAU.md`.
+2. **Gegenseitig prüfen:** Die andere KI liest Quelltext und Vorschau und schreibt `pruefung_<ki>.md` (fachlich, Layout, Markenstil). Verbesserungen kommen als neue Dateien (`_v2`). Jede Änderung wird in `STATUS.md` unter „Änderungen“ vermerkt.
+3. **Freigabe:** Mariam schaut sich `VORSCHAU.md` an. Nur sie trägt in `STATUS.md` „FREIGEGEBEN“ ein oder sagt es ausdrücklich im Chat. Erst dann darf veröffentlicht oder eingeplant werden.
+
+**KI-Bilder** (gemalte Illustrationen aus einem Bildgenerator) können nicht als Quelltext gespeichert werden. Mariam lädt sie über *Add file → Upload files* in `quelle/` hoch. Eine HTML-Folie kann sie dann als Bild einbinden.
+
+### Sicherheit
+
+Der Bildmacher erzeugt ausschließlich Bilddateien. Er nutzt keine Zugangsdaten und ist mit Instagram, Metricool oder Zapier nicht verbunden. Er kann also nichts veröffentlichen oder einplanen.
 
 ## Markenstil (Leitplanken, keine Gleichmacherei)
 

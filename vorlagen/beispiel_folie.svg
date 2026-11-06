@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <!-- Vorlage für eine Instagram-Folie (1080 × 1350). Frei veränderbar. Schriften: Inter, Inter Display, Liberation Serif. -->
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C5D9F2"/><stop offset="1" stop-color="#E3EDF9"/></linearGradient></defs>
+  <rect width="1080" height="1350" fill="url(#bg)"/>
+  <text x="90" y="100" font-family="Liberation Serif" font-weight="700" font-size="31" fill="#2F3E58">Das wird gefragt.</text>
+  <text x="90" y="420" font-family="Inter Display, Inter" font-weight="900" font-size="92" fill="#2F3E58">Überschrift</text>
+  <text x="90" y="1294" font-family="Inter" font-weight="500" font-size="24" fill="#5D6473">Schriftliche Heilpraktikerprüfung</text>
+</svg>

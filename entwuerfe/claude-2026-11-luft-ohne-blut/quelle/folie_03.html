@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8">
+<style>
+  :root { --blau1:#C5D9F2; --blau2:#E3EDF9; --navy:#2F3E58; --rose:#A9466A; --grau:#5D6473; }
+  html,body { margin:0; width:1080px; height:1350px; overflow:hidden; }
+  body { background:linear-gradient(180deg,var(--blau1),var(--blau2)); font-family:"Inter",sans-serif; color:var(--navy); position:relative; }
+  .kopf { position:absolute; top:58px; left:90px; right:90px; display:flex; justify-content:space-between; align-items:center; font:700 31px "Liberation Serif",serif; }
+  .seite { font:600 24px "Inter"; background:#fff; border-radius:99px; padding:6px 18px; }
+  h2 { position:absolute; top:150px; left:90px; right:90px; font:700 58px/1.15 "Liberation Serif",serif; margin:0; }
+  .karten { position:absolute; top:300px; left:90px; right:90px; display:grid; gap:26px; }
+  .k { background:#fff; border-radius:26px; padding:30px 36px; }
+  .k h3 { font:800 38px "Inter"; margin:0 0 14px; }
+  .k ul { margin:0; padding-left:30px; font:400 32px/1.38 "Inter"; }
+  .notfall { position:absolute; left:90px; right:90px; top:1078px; background:var(--rose); color:#fff; border-radius:22px; padding:26px 36px; font:800 40px/1.2 "Inter"; }
+  .fuss { position:absolute; bottom:56px; left:90px; right:90px; display:flex; justify-content:space-between; font:500 24px "Inter"; color:var(--grau); }
+</style></head><body>
+  <div class="kopf"><span>Das wird gefragt.</span><span class="seite">3/3</span></div>
+  <h2>Woran erkennt man den Unterschied?</h2>
+  <div class="karten">
+    <div class="k"><h3>Lungenembolie</h3><ul><li>Brustschmerz, der beim Atmen zunimmt</li><li>Abklopfen und Abhören meist uncharakteristisch</li></ul></div>
+    <div class="k"><h3>Lungenödem</h3><ul><li>feuchte, grobblasige Rasselgeräusche, die auch nach dem Abhusten bleiben</li><li>Atemnot im Liegen, schaumiger Auswurf</li></ul></div>
+  </div>
+  <div class="notfall">Beides kann plötzlich beginnen – beides ist ein Notfall: sofort Notruf 112.</div>
+  <div class="fuss"><span>Schriftliche Heilpraktikerprüfung</span><span>Lernhilfe, keine medizinische Beratung</span></div>
+</body></html>

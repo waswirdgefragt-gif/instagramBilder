@@ -1,0 +1,59 @@
+# Bildmacher: erzeugt aus SVG/HTML-Quelltexten unter entwuerfe/<beitrag>/quelle/ fertige PNG-Bilder (1080 × 1350).
+#
+# SICHERHEIT: Dieser Ablauf erzeugt ausschließlich Bilddateien im Repository.
+# Er verwendet keine Zugangsdaten (keine Secrets), ruft weder Instagram, Metricool noch Zapier auf
+# und kann nichts veröffentlichen oder einplanen. Veröffentlichen ist nur nach ausdrücklicher Freigabe durch Mariam erlaubt.
+name: Bildmacher (nur Vorschaubilder – keine Veröffentlichung)
+
+on:
+  push:
+    branches: ['**']
+    paths:
+      - 'entwuerfe/**/quelle/**'
+      - 'werkzeuge/bildmacher.py'
+      - '.github/workflows/bildmacher.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bildmacher-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  bilder:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Schriften installieren (Inter, Liberation Serif, Emoji)
+        run: |
+          mkdir -p ~/.local/share/fonts
+          cp werkzeuge/schriften/*.otf werkzeuge/schriften/*.ttf ~/.local/share/fonts/
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq fonts-noto-color-emoji
+          fc-cache -f > /dev/null
+
+      - name: Browser zum Rendern installieren
+        run: |
+          pip install --quiet playwright==1.48.0 pillow
+          python -m playwright install --with-deps chromium
+
+      - name: Bilder erzeugen
+        run: python werkzeuge/bildmacher.py
+
+      - name: Bilder im Repository speichern
+        run: |
+          git config user.name "Bildmacher"
+          git config user.email "bildmacher@users.noreply.github.com"
+          git add entwuerfe/*/bilder entwuerfe/*/VORSCHAU.md
+          if git diff --cached --quiet; then echo "Keine neuen Bilder."; exit 0; fi
+          git commit -m "Bildmacher: Vorschaubilder erzeugt (Entwurf, keine Veröffentlichung)"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

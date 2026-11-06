@@ -26,3 +26,6 @@ Typische Zeichen sind plötzlich einsetzende starke Schmerzen, Blässe, Kälte u
 Merke für die Heilpraktikerprüfung: Plötzlich blass + kalt + stark schmerzhaft = an akute arterielle Extremitätenischämie denken.
 
 #Heilpraktikerprüfung #HeilpraktikerLernen #Notfallmedizin #DasWirdGefragt
+
+## Änderungen
+- 07.11.2026 Claude: Prüfung in `pruefung_claude.md`. Neue Versionen `folie_01_v2.svg`, `folie_02_v2.svg`, `folie_03_v2.svg` (pastellblauer Rahmen, größere Kleinschrift, Erstmaßnahmen und Lagerung, verbessertes Schema, Abgrenzung zur Venenthrombose, Merksatz mit Notruf 112). Originale unverändert. Keine Freigabe – Entscheidung liegt bei Mariam.

@@ -15,3 +15,6 @@
 
 ### folie_01_v3_chatgpt.png
 ![folie_01_v3_chatgpt.png](bilder/folie_01_v3_chatgpt.png)
+
+### folie_01_v4.png
+![folie_01_v4.png](bilder/folie_01_v4.png)

@@ -34,3 +34,15 @@ Stand: 07.11.2026 · Grafik von ChatGPT, von Mariam weitergeleitet (Hochladen du
 - Tahir N et al.: Tracheobronchial anatomy and the distribution of inhaled foreign bodies in children. Eur J Pediatr 2009;168:289–295 (Abgangswinkel, Verteilung von Fremdkörpern)
 - StatPearls (NCBI Bookshelf): Anatomy, Thorax, Lungs. https://pubmed.ncbi.nlm.nih.gov/29262068/ (Lappen, Spalten, Herzbucht). Hinweis: Der Text widerspricht sich bei der Beschreibung des rechten schrägen Spalts, deshalb wurde er nur für Lappenzahl und Herzbucht verwendet.
 - Fragenbuch „Das wird gefragt“ 2.1.4, 2.6.2 und 2.6.3 (geprüft)
+
+## Nachtrag: Karussell mit 4 Folien (07.11.2026, Mariam: „ok“)
+
+| Folie | Inhalt | Beleg |
+|---|---|---|
+| 1 | Titel, ChatGPT-Grafik, Markierung der Erdnuss | s. o. |
+| 2 | erst das Bild (Rutsche), dann der Fachbegriff; Ausschnitt der Grafik an der Teilung der Luftröhre | Fragenbuch 2.1.4 und 2.6.2; Q0313 (Tahir 2009, Abstract: rechter Hauptbronchus „consistently steeper and slightly wider“, bei Kindern aller Altersgruppen häufiger rechts, Bevorzugung durch die variable Lage der Gabelung abgeschwächt) |
+| 3 | Warnzeichen und Was tun (Notfall) | Fragenbuch 2.6.3 und 2.6.4, Wortlaut der geprüften Notfallaussage übernommen. Zwei Quellen: Q0382 (Inselspital) und Q0386 (GRC/ERC 2025), dazu Q0385 (AWMF) |
+| 4 | selbst formulierte Prüfungsfrage, Auflösung im Beitragstext | Fragenbuch 2.6.2 |
+
+Auf eine Prüfungshäufigkeit habe ich verzichtet: App (51 Prüfungen) und Fragenbuch (52 Prüfungen) zählen hier unterschiedlich. Erst nach dem Abgleich (siehe App-Repository, Aufgabe A3) wird eine Zahl genannt.
+Der Ausschnitt auf Folie 2 muss nach Eingang von Fassung 2 der Grafik neu gesetzt werden.

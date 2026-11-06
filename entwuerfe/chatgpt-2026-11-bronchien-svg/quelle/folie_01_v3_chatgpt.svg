@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="title description">
+<title id="title">Eingeatmete Fremdkörper: Warum landen sie meist in der rechten Lunge?</title>
+<desc id="description">Anatomische Vorderansicht mit beiden Lungen, drei rechten und zwei linken Lappen, Luftröhre, Haupt- und Lappenbronchien sowie Fremdkörperweg in den rechten Hauptbronchus.</desc>
+<defs>
+  <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#CFDFF1"/><stop offset=".53" stop-color="#E1EDF8"/><stop offset="1" stop-color="#D5E6F3"/></linearGradient>
+  <linearGradient id="rightLung" x1=".12" y1=".04" x2=".94" y2="1"><stop stop-color="#F0B8AF"/><stop offset=".38" stop-color="#E0A39A"/><stop offset=".72" stop-color="#D68E8C"/><stop offset="1" stop-color="#BE7E81"/></linearGradient>
+  <linearGradient id="leftLung" x1=".12" y1=".04" x2=".94" y2="1"><stop stop-color="#F3C7B7"/><stop offset=".46" stop-color="#E5AB9E"/><stop offset=".9" stop-color="#CC8D8E"/><stop offset="1" stop-color="#BD8185"/></linearGradient>
+  <linearGradient id="tube" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#AA7269"/><stop offset=".18" stop-color="#DBA397"/><stop offset=".48" stop-color="#F9DED0"/><stop offset=".75" stop-color="#DEAA9D"/><stop offset="1" stop-color="#A66D67"/></linearGradient>
+  <linearGradient id="rose" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F4E4EA"/><stop offset="1" stop-color="#EBC9D6"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>
+  <filter id="light" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="2"/></filter>
+  <clipPath id="clipRight"><path d="M486 480 C452 463 422 450 392 450 C361 437 337 429 313 448 C272 472 242 528 219 588 C185 675 176 790 183 896 C185 971 215 1010 279 1031 C316 1044 354 1021 397 1013 C437 1005 475 989 483 961 C489 935 470 884 466 842 C457 784 480 727 491 678 C503 610 504 530 486 480Z"/></clipPath>
+  <clipPath id="clipLeft"><path d="M588 480 C610 461 633 446 659 441 C696 421 722 431 744 447 C790 469 823 533 846 593 C886 682 900 802 890 908 C886 966 857 1013 815 1030 C765 1049 728 1030 692 1010 C661 994 641 976 636 944 C635 918 645 897 644 881 C643 856 628 838 605 820 C620 797 627 776 620 752 C609 717 590 679 580 640 C565 579 570 513 588 480Z"/></clipPath>
+</defs>
+<rect width="1080" height="1350" fill="url(#page)"/>
+<rect x="37" y="35" width="1006" height="1277" rx="30" fill="#FCFEFF" stroke="#A3C3DA" stroke-width="3"/>
+<!-- Brand and copy: deliberately separate from anatomical figure -->
+<text x="91" y="110" fill="#233D5D" font-family="Liberation Serif,serif" font-weight="600" font-size="46">Das wird gefragt.</text>
+<text x="983" y="110" text-anchor="end" fill="#B36582" font-family="Inter,sans-serif" font-size="22" font-weight="700">ANATOMIE</text>
+<path d="M90 141H990" stroke="#C0D5E6" stroke-width="2"/>
+<text x="95" y="194" fill="#B36582" font-family="Inter,sans-serif" font-size="30" font-weight="800" letter-spacing="1">EINGEATMETE FREMDKÖRPER</text>
+<text x="94" y="273" fill="#203B59" font-family="Inter Display,Inter,sans-serif" font-size="52" font-weight="800">Warum landen sie meist</text>
+<text x="94" y="337" fill="#203B59" font-family="Inter Display,Inter,sans-serif" font-size="52" font-weight="800">in der rechten Lunge?</text>
+<text x="96" y="392" fill="#5D7690" font-family="Inter,sans-serif" font-size="24">Luftröhre, Bronchien und Lunge in der Ansicht von vorn</text>
+<!-- Illustrated field -->
+<rect x="91" y="420" width="898" height="724" rx="27" fill="#F0F7FC" stroke="#C4DDEC" stroke-width="2"/>
+<ellipse cx="533" cy="1032" rx="310" ry="34" fill="#91B0C6" opacity=".14" filter="url(#shadow)"/>
+<!-- Lungs: anterior viewing orientation right body = image left -->
+<path d="M486 480 C452 463 422 450 392 450 C361 437 337 429 313 448 C272 472 242 528 219 588 C185 675 176 790 183 896 C185 971 215 1010 279 1031 C316 1044 354 1021 397 1013 C437 1005 475 989 483 961 C489 935 470 884 466 842 C457 784 480 727 491 678 C503 610 504 530 486 480Z" fill="url(#rightLung)" stroke="#A86668" stroke-width="4"/>
+<path d="M588 480 C610 461 633 446 659 441 C696 421 722 431 744 447 C790 469 823 533 846 593 C886 682 900 802 890 908 C886 966 857 1013 815 1030 C765 1049 728 1030 692 1010 C661 994 641 976 636 944 C635 918 645 897 644 881 C643 856 628 838 605 820 C620 797 627 776 620 752 C609 717 590 679 580 640 C565 579 570 513 588 480Z" fill="url(#leftLung)" stroke="#A86668" stroke-width="4"/>
+<!-- watercolor-like edge glazes confined to each lung -->
+<g clip-path="url(#clipRight)" opacity=".30"><path d="M242 539 C202 640 210 891 271 981" fill="none" stroke="#FFF3E8" stroke-width="50" filter="url(#light)"/><path d="M396 466 C441 613 407 809 451 946" fill="none" stroke="#BA6F75" stroke-width="45" opacity=".35" filter="url(#shadow)"/></g>
+<g clip-path="url(#clipLeft)" opacity=".30"><path d="M810 542 C864 680 852 900 793 988" fill="none" stroke="#FCEFE6" stroke-width="48" filter="url(#light)"/><path d="M655 462 C618 597 657 763 667 915" fill="none" stroke="#B96F78" stroke-width="36" opacity=".34" filter="url(#shadow)"/></g>
+<!-- Fissures: two on right, one on left -->
+<g stroke="#9F666A" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M226 746 C295 728 379 725 466 752" stroke-width="5" opacity=".78"/>
+  <path d="M260 967 C318 893 370 834 461 755" stroke-width="5" opacity=".83"/>
+  <path d="M836 962 C772 888 718 826 617 760" stroke-width="5" opacity=".83"/>
+</g>
+<g stroke="#F7D7D0" fill="none" stroke-width="2.5" opacity=".84"><path d="M228 740 C294 723 380 719 464 747"/><path d="M258 963 C315 891 370 832 458 753"/><path d="M837 958 C772 883 719 823 619 757"/></g>
+<!-- faint heart volume beneath the left main bronchus (not a label) -->
+<path d="M574 707 C588 689 615 691 623 709 C637 692 667 698 671 722 C677 756 642 801 614 822 C595 794 570 759 569 733 C567 723 569 714 574 707Z" fill="#B76C82" opacity=".16"/>
+<!-- Cartilaginous trachea from front -->
+<path d="M511 470 C510 530 511 591 510 646 Q511 674 536 694 Q558 674 560 646 L560 472" fill="url(#tube)" stroke="#966A65" stroke-width="4"/>
+<path d="M524 471 L522 649 Q522 662 536 678" fill="none" stroke="#F9E5D7" stroke-width="11" opacity=".55"/>
+<g stroke="#A6756C" stroke-width="6" fill="none" stroke-linecap="round" opacity=".83">
+<path d="M513 493 Q534 504 558 493"/><path d="M512 516 Q535 527 559 516"/><path d="M511 539 Q536 550 559 539"/><path d="M511 562 Q535 573 560 562"/><path d="M510 585 Q536 596 560 585"/><path d="M510 608 Q534 621 560 608"/><path d="M510 631 Q534 645 560 631"/><path d="M511 654 Q534 665 559 651"/>
+</g>
+<!-- Main bronchi rendered as tapered shaded tubes, open branching; right=steeper, wider, shorter -->
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<!-- tube outline, base, highlight: right main ends at early upper lobe offshoot -->
+<path d="M537 690 C514 716 500 749 486 769" stroke="#985F5C" stroke-width="52"/>
+<path d="M537 690 C514 716 500 749 486 769" stroke="url(#tube)" stroke-width="43"/>
+<path d="M536 694 C517 720 504 745 491 765" stroke="#F8E3D4" stroke-width="13" opacity=".83"/>
+<!-- left main longer and narrower, passes toward viewer right -->
+<path d="M540 691 C585 723 627 737 687 741" stroke="#99625F" stroke-width="39"/>
+<path d="M540 691 C585 723 627 737 687 741" stroke="url(#tube)" stroke-width="32"/>
+<path d="M550 700 C600 731 638 739 687 740" stroke="#FFE5D8" stroke-width="9" opacity=".81"/>
+<!-- right upper-lobe bronchus: early, outward and up -->
+<path d="M491 766 C455 744 417 713 381 684" stroke="#985E5A" stroke-width="31"/>
+<path d="M491 766 C455 744 417 713 381 684" stroke="url(#tube)" stroke-width="25"/>
+<path d="M486 765 C452 742 420 718 381 684" stroke="#F6D4C7" stroke-width="7"/>
+<!-- bronchus intermedius -->
+<path d="M485 769 C474 809 464 841 454 869" stroke="#985E5A" stroke-width="42"/>
+<path d="M485 769 C474 809 464 841 454 869" stroke="url(#tube)" stroke-width="34"/>
+<!-- right middle -->
+<path d="M467 818 C431 824 400 840 372 866" stroke="#9B605C" stroke-width="29"/>
+<path d="M467 818 C431 824 400 840 372 866" stroke="url(#tube)" stroke-width="23"/>
+<!-- right lower -->
+<path d="M455 867 C423 902 397 930 366 959" stroke="#99615C" stroke-width="32"/>
+<path d="M455 867 C423 902 397 930 366 959" stroke="url(#tube)" stroke-width="25"/>
+<!-- left upper at later bifurcation -->
+<path d="M680 742 C707 717 739 685 759 655" stroke="#9C655E" stroke-width="31"/>
+<path d="M680 742 C707 717 739 685 759 655" stroke="url(#tube)" stroke-width="24"/>
+<!-- left lingula branches -->
+<path d="M727 703 C760 710 784 730 807 755" stroke="#9B665F" stroke-width="23"/>
+<path d="M727 703 C760 710 784 730 807 755" stroke="url(#tube)" stroke-width="17"/>
+<path d="M765 660 C780 637 794 619 806 610" stroke="#9D6961" stroke-width="20"/>
+<path d="M765 660 C780 637 794 619 806 610" stroke="url(#tube)" stroke-width="15"/>
+<!-- left lower -->
+<path d="M680 743 C710 789 735 842 774 896" stroke="#985F5D" stroke-width="32"/>
+<path d="M680 743 C710 789 735 842 774 896" stroke="url(#tube)" stroke-width="25"/>
+<path d="M747 850 C782 846 807 851 829 864" stroke="#986260" stroke-width="20"/>
+<path d="M747 850 C782 846 807 851 829 864" stroke="url(#tube)" stroke-width="14"/>
+<!-- fine ramifications in right lobes -->
+<path d="M407 704 C382 703 364 690 350 673 M393 695 C381 672 368 655 346 640 M415 724 C393 736 377 739 364 740" stroke="#B2776D" stroke-width="14"/>
+<path d="M408 844 C382 835 360 834 337 841 M391 853 C381 879 366 893 349 905 M406 918 C386 922 367 935 348 948 M386 943 C383 972 375 987 360 997" stroke="#B2776D" stroke-width="12"/>
+<!-- fine ramifications in left lobes -->
+<path d="M773 638 C792 635 815 636 833 653 M786 735 C815 732 838 746 856 773 M785 908 C810 905 833 917 852 930 M757 879 C748 923 747 957 738 974" stroke="#B2776D" stroke-width="12"/>
+</g>
+<!-- subtle cartilage arcs limited to main bronchi -->
+<g fill="none" stroke="#A36E65" stroke-width="3.2" opacity=".74" stroke-linecap="round">
+<path d="M515 722 l24 17 M503 746 l24 16 M488 770 l23 9"/>
+<path d="M581 711 l-10 31 M619 727 l-5 30 M656 733 l-4 30"/>
+</g>
+<!-- peanut + curved directional arrow down into right main bronchus -->
+<path d="M526 581 C517 608 513 628 520 653" fill="none" stroke="#AD5778" stroke-width="7" stroke-linecap="round"/>
+<path d="M507 637 L521 665 L538 642" fill="none" stroke="#AD5778" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M531 563 C521 552 509 556 503 568 C497 580 505 590 517 592 C530 607 544 600 548 590 C554 577 543 564 531 563Z" fill="#CB9B60" stroke="#906943" stroke-width="3"/>
+<path d="M512 574 C520 575 520 583 529 583 M532 571 C538 578 533 590 539 591" stroke="#E8C18B" fill="none" stroke-width="3" stroke-linecap="round"/>
+<!-- legend labels: outside lungs, callouts below panel -->
+<rect x="111" y="1050" width="385" height="69" rx="16" fill="url(#rose)" stroke="#E4C1CE"/>
+<text x="304" y="1078" text-anchor="middle" fill="#203B59" font-family="Inter,sans-serif" font-size="24" font-weight="800">RECHTS</text>
+<text x="304" y="1105" text-anchor="middle" fill="#203B59" font-family="Inter,sans-serif" font-size="20" font-weight="500">kürzer · weiter · steiler</text>
+<rect x="585" y="1050" width="385" height="69" rx="16" fill="#E3EEF8" stroke="#C3D8EA"/>
+<text x="777" y="1078" text-anchor="middle" fill="#203B59" font-family="Inter,sans-serif" font-size="24" font-weight="800">LINKS</text>
+<text x="777" y="1105" text-anchor="middle" fill="#203B59" font-family="Inter,sans-serif" font-size="20" font-weight="500">länger · enger · flacher</text>
+<text x="540" y="1175" text-anchor="middle" fill="#61798E" font-family="Inter,sans-serif" font-size="21">Blick von vorn: rechte Körperseite = linke Bildseite</text>
+<rect x="93" y="1193" width="894" height="67" rx="16" fill="url(#rose)" stroke="#D4A5B9" stroke-width="2"/>
+<text x="540" y="1237" text-anchor="middle" fill="#213B59" font-family="Inter Display,Inter,sans-serif" font-size="31" font-weight="800">RECHTS = STEILER · WEITER · KÜRZER</text>
+<text x="540" y="1292" text-anchor="middle" fill="#5B728B" font-family="Inter,sans-serif" font-size="21" font-weight="600">SCHRIFTLICHE HEILPRAKTIKERPRÜFUNG</text>
+</svg>

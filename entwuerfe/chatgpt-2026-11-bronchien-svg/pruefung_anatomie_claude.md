@@ -35,14 +35,24 @@ Stand: 07.11.2026 · Grafik von ChatGPT, von Mariam weitergeleitet (Hochladen du
 - StatPearls (NCBI Bookshelf): Anatomy, Thorax, Lungs. https://pubmed.ncbi.nlm.nih.gov/29262068/ (Lappen, Spalten, Herzbucht). Hinweis: Der Text widerspricht sich bei der Beschreibung des rechten schrägen Spalts, deshalb wurde er nur für Lappenzahl und Herzbucht verwendet.
 - Fragenbuch „Das wird gefragt“ 2.1.4, 2.6.2 und 2.6.3 (geprüft)
 
-## Nachtrag: Karussell mit 4 Folien (07.11.2026, Mariam: „ok“)
+## Nachtrag: Karussell mit 3 Folien (07.11.2026, nach Mariams Rückmeldung)
+
+Mariams Rückmeldung zur Fassung mit 4 Folien:
+- Die Überschrift ist ohne Bezug unverständlich.
+- Die Folie „Plötzlicher Husten – ohne Fieber“ funktioniert nicht.
+- Die Quizfrage ist zu banal, weil sie schon beantwortet ist.
+- Lieber eine Folie mit wichtigen Fakten zur Lunge, statt den Beitrag künstlich zu verlängern.
+
+Umsetzung:
 
 | Folie | Inhalt | Beleg |
 |---|---|---|
-| 1 | Titel, ChatGPT-Grafik, Markierung der Erdnuss | s. o. |
-| 2 | erst das Bild (Rutsche), dann der Fachbegriff; Ausschnitt der Grafik an der Teilung der Luftröhre | Fragenbuch 2.1.4 und 2.6.2; Q0313 (Tahir 2009, Abstract: rechter Hauptbronchus „consistently steeper and slightly wider“, bei Kindern aller Altersgruppen häufiger rechts, Bevorzugung durch die variable Lage der Gabelung abgeschwächt) |
-| 3 | Warnzeichen und Was tun (Notfall) | Fragenbuch 2.6.3 und 2.6.4, Wortlaut der geprüften Notfallaussage übernommen. Zwei Quellen: Q0382 (Inselspital) und Q0386 (GRC/ERC 2025), dazu Q0385 (AWMF) |
-| 4 | selbst formulierte Prüfungsfrage, Auflösung im Beitragstext | Fragenbuch 2.6.2 |
+| 1 | Überschrift, die für sich verständlich ist: „Warum rutschen eingeatmete Fremdkörper meist in die rechte Lunge?“; Grafik von ChatGPT | s. o. |
+| 2 | „Die Luftröhre teilt sich wie eine Rutsche“: erst das Bild, dann der Fachbegriff; Ausschnitt der Grafik | Fragenbuch 2.1.4 und 2.6.2; Q0313 (Tahir 2009, Abstract) |
+| 3 | „5 Fakten zu Lunge und Atemwegen“ | Fragenbuch 2.1.4 (Lappen, Gabelung), 2.1.5 (Knorpelspangen), 2.1.8 (Blut-Luft-Schranke), 2.1.13 (Zwerchfell, Nervus phrenicus), jeweils geprüft |
 
-Auf eine Prüfungshäufigkeit habe ich verzichtet: App (51 Prüfungen) und Fragenbuch (52 Prüfungen) zählen hier unterschiedlich. Erst nach dem Abgleich (siehe App-Repository, Aufgabe A3) wird eine Zahl genannt.
+Die Notfallaussage steht jetzt nur im Beitragstext, im geprüften Wortlaut aus Fragenbuch 2.6.3 (Q0382, Q0386).
+
+Bewusst nicht genannt ist eine Prüfungshäufigkeit, weil App und Fragenbuch noch unterschiedlich zählen.
+
 Der Ausschnitt auf Folie 2 muss nach Eingang von Fassung 2 der Grafik neu gesetzt werden.

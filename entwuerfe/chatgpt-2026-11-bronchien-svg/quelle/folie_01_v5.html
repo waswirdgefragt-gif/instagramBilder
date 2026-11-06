@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- Vorentwurf: Layout von Claude mit der Anatomie-Grafik von ChatGPT (grafik/bronchien_fremdkoerper.png, Fassung 1).
+     Grafik unverändert, nur Weißrand beschnitten und skaliert. Korrektur der Grafik angefragt (siehe pruefung_anatomie_claude.md). -->
+<html lang="de"><head><meta charset="utf-8">
+<style>
+  :root { --blau1:#C5D9F2; --blau2:#E3EDF9; --navy:#2F3E58; --rose:#A9466A; --grau:#5D6473; }
+  html,body { margin:0; width:1080px; height:1350px; overflow:hidden; }
+  body { background:linear-gradient(180deg,var(--blau1),var(--blau2)); font-family:"Inter",sans-serif; color:var(--navy); position:relative; }
+  .kopf { position:absolute; top:58px; left:90px; right:90px; display:flex; justify-content:space-between; align-items:center; }
+  .marke { display:flex; gap:14px; align-items:center; font:700 31px "Liberation Serif",serif; }
+  .seite { font:600 24px "Inter"; background:#fff; border-radius:99px; padding:6px 18px; }
+  .pill { position:absolute; top:150px; left:90px; background:var(--rose); color:#fff; font:800 24px "Inter"; letter-spacing:.14em; padding:9px 20px; border-radius:99px; }
+  h1 { position:absolute; top:212px; left:90px; right:90px; margin:0; font:900 60px/1.06 "Inter Display","Inter",sans-serif; letter-spacing:-1px; }
+  h1 .r { color:var(--rose); }
+  .karte { position:absolute; top:438px; left:90px; width:900px; height:630px; background:#fff; border-radius:28px; box-shadow:0 10px 30px rgba(47,62,88,.12); overflow:hidden; }
+  /* Grafik: Weißrand beschnitten (Ausschnitt 39,16 – 1268,1169 des Originals), Höhe 590 px */
+  .grafik { position:absolute; top:20px; left:135.5px; width:629px; height:590px; overflow:hidden; }
+  .grafik img { position:absolute; left:-19.96px; top:-8.19px; width:671.5px; }
+  .seitenname { position:absolute; top:26px; font:800 22px "Inter"; letter-spacing:.12em; color:var(--navy); background:rgba(227,237,249,.92); padding:7px 14px; border-radius:10px; }
+  .re { left:24px; } .li { right:24px; }
+  .blick { position:absolute; top:1080px; left:90px; right:90px; text-align:center; font:500 22px "Inter"; color:var(--grau); }
+  svg.marker { position:absolute; left:0; top:0; }
+  .fk { position:absolute; left:24px; top:380px; font:700 22px/1.25 "Inter"; color:var(--rose); background:rgba(255,255,255,.92); padding:8px 12px; border-radius:10px; }
+  .merk { position:absolute; top:1122px; left:90px; right:90px; background:var(--navy); color:#fff; border-radius:20px; padding:20px 30px; }
+  .merk b { display:block; font:800 32px/1.2 "Inter"; letter-spacing:.02em; }
+  .merk span { display:block; font:400 25px/1.3 "Inter"; margin-top:6px; color:#E3EDF9; }
+  .fuss { position:absolute; bottom:46px; left:90px; font:500 24px "Inter"; color:var(--grau); }
+</style></head><body>
+  <div class="kopf"><div class="marke"><svg width="44" height="44" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="7" fill="#fff"/><rect x="8" y="9" width="8" height="8" rx="1.6" fill="none" stroke="#3B4B66" stroke-width="1.6"/><path d="M7 8l10.5 10.5M17.5 7.5L7.5 17.5" stroke="#A9466A" stroke-width="2.4" stroke-linecap="round"/><rect x="20" y="12" width="13" height="2.2" rx="1.1" fill="#C6CDD8"/><rect x="8" y="23" width="8" height="8" rx="1.6" fill="none" stroke="#3B4B66" stroke-width="1.6"/><rect x="20" y="26" width="13" height="2.2" rx="1.1" fill="#C6CDD8"/></svg>Das wird gefragt.</div><span class="seite">1/3</span></div>
+  <div class="pill">ANATOMIE MIT FOLGEN</div>
+  <h1>Warum rutschen eingeatmete Fremdkörper meist in die <span class="r">rechte Lunge?</span></h1>
+
+  <div class="karte">
+    <div class="grafik"><img src="grafik/bronchien_fremdkoerper.png" alt="Luftröhre, Bronchien und beide Lungenflügel von vorn; Erdnuss im rechten Hauptbronchus"></div>
+    <div class="seitenname re">RECHTE LUNGE</div>
+    <div class="seitenname li">LINKE LUNGE</div>
+    <!-- Markierung des Fremdkörpers: Erdnuss in der Grafik bei (366 | 296) in Kartenkoordinaten -->
+    <svg class="marker" width="900" height="630" viewBox="0 0 900 630">
+      <circle cx="366.3" cy="295.9" r="27" fill="none" stroke="#A9466A" stroke-width="4"/>
+      <path d="M 196 398 L 343 310" stroke="#A9466A" stroke-width="3.5" stroke-linecap="round"/>
+    </svg>
+    <div class="fk">Erdnuss im<br>rechten Haupt-<br>bronchus</div>
+  </div>
+  <div class="blick">Blick von vorn: rechte Körperseite = linke Bildseite</div>
+
+  <div class="merk"><b>Rechter Hauptbronchus: steiler · weiter · kürzer</b><span>Er setzt die Luftröhre fast gerade nach unten fort.</span></div>
+  <div class="fuss">Schriftliche Heilpraktikerprüfung</div>
+</body></html>

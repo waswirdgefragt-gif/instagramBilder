@@ -6,3 +6,6 @@
 
 ### folie_01.png
 ![folie_01.png](bilder/folie_01.png)
+
+### folie_01_v2.png
+![folie_01_v2.png](bilder/folie_01_v2.png)

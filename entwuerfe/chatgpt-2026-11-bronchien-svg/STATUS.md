@@ -12,3 +12,7 @@ Erstellt von ChatGPT am 07.11.2026. Echte, editierbare SVG-Karte (1080 × 1350).
 
 ## Redaktionelles Urteil der Nutzerin (07.11.2026)
 **ABGELEHNT — NICHT VERÖFFENTLICHEN, NICHT EINPLANEN.** Der Entwurf ist nicht ausreichend als Lunge erkennbar, die Überschrift lässt den Bezugsrahmen Atemwege/Lunge vermissen, und die anatomisch-didaktische Wirkung ist ungenügend. Eine neue Version muss beide vollständigen Lungenflügel, Trachea und Hauptbronchien zeigen, klaren Vorderansicht-Bezug und eine ausdrücklich auf Fremdkörperaspiration in die rechte Lunge bezogene Überschrift haben. Die künftige anatomische Illustration muss getrennt anhand von Fachreferenzen geprüft werden. Bestehende Originaldatei nicht als fertigen Beitrag verwenden.
+
+## Änderungen
+- 07.11.2026 Claude: Prüfung in `pruefung_claude.md`; neue Fassung `quelle/folie_01_v2.svg` (anatomisch überarbeiteter Bronchialbaum, Lungenlappen, Orientierungshinweis, einheitliche Überschrift). Original unverändert. Hinweis: Die Quelle Yildiran 2026 ließ sich nicht verifizieren. Keine Freigabe – Entscheidung liegt bei Mariam.
+- 07.11.2026 Claude: Nach Mariams redaktionellem Urteil v2 angepasst: Überschrift ausdrücklich zur Fremdkörperaspiration in die rechte Lunge, beide Lungenflügel vollständig sichtbar (Beschriftungen nicht mehr über den Lungenspitzen), Vorderansicht ausdrücklich benannt. Anatomie gegen Fachreferenz geprüft (Difficult Airway Society; Tahir et al. 2009; Fragenbuch 2.1.4/2.6.2).

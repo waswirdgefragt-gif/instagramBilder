@@ -57,7 +57,7 @@ In `bilder/` und `VORSCHAU.md` bitte nichts von Hand ändern, sie werden bei jed
 - **Claude** prüft unabhängig und baut die Grafik in Post, Karussell oder Reel ein.
 
 **Ablauf:**
-1. ChatGPT erstellt die Grafik im Chat. Mariam gibt sie an Claude weiter.
+1. Claude schreibt den Bild-Prompt in `grafik-auftraege/offen/`. ChatGPT holt ihn dort ab und erzeugt die Grafik im Chat. Wie die Grafik geliefert wird (Repository, Google Drive oder Chat), steht in `grafik-auftraege/README.md`.
 2. Claude legt die Originaldatei **unverändert** in `quelle/grafik/` ab. Bei einer neuen Fassung kommt eine neue Datei mit `_v2` dazu.
 3. Claude prüft und schreibt das Ergebnis in `pruefung_anatomie_claude.md`, mit internen Quellen nach `QUELLENREGELN`. Geprüft werden:
    - **anatomische Korrektheit:** Seitenverhältnisse, Lagebeziehungen, rechts und links aus Sicht des Betrachters, Lappen, Fissuren, Herzbucht, Bronchien, Gefäße,

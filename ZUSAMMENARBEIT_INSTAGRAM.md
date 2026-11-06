@@ -48,7 +48,32 @@ In `bilder/` und `VORSCHAU.md` bitte nichts von Hand ändern, sie werden bei jed
 2. **Gegenseitig prüfen:** Die andere KI liest Quelltext und Vorschau und schreibt `pruefung_<ki>.md` (fachlich, Layout, Markenstil). Verbesserungen kommen als neue Dateien (`_v2`). Jede Änderung wird in `STATUS.md` unter „Änderungen“ vermerkt.
 3. **Freigabe:** Mariam schaut sich `VORSCHAU.md` an. Nur sie trägt in `STATUS.md` „FREIGEGEBEN“ ein oder sagt es ausdrücklich im Chat. Erst dann darf veröffentlicht oder eingeplant werden.
 
-**KI-Bilder** (gemalte Illustrationen aus einem Bildgenerator) können nicht als Quelltext gespeichert werden. Mariam lädt sie über *Add file → Upload files* in `quelle/` hoch. Eine HTML-Folie kann sie dann als Bild einbinden.
+**KI-Bilder** (gemalte Illustrationen aus einem Bildgenerator) können nicht als Quelltext gespeichert werden. Mariam gibt sie an Claude weiter, und Claude legt sie in `quelle/grafik/` ab. Alternativ lädt Mariam sie selbst über *Add file → Upload files* hoch. Den Ablauf beschreibt der nächste Abschnitt.
+
+### Anatomie-Grafiken von ChatGPT (fester Ablauf seit 7.11.2026, Festlegung Mariam)
+
+**Rollen:**
+- **ChatGPT** liefert die anatomischen Illustrationen und die inhaltlichen Ideen.
+- **Claude** prüft unabhängig und baut die Grafik in Post, Karussell oder Reel ein.
+
+**Ablauf:**
+1. ChatGPT erstellt die Grafik im Chat. Mariam gibt sie an Claude weiter.
+2. Claude legt die Originaldatei **unverändert** in `quelle/grafik/` ab. Bei einer neuen Fassung kommt eine neue Datei mit `_v2` dazu.
+3. Claude prüft und schreibt das Ergebnis in `pruefung_anatomie_claude.md`, mit internen Quellen nach `QUELLENREGELN`. Geprüft werden:
+   - **anatomische Korrektheit:** Seitenverhältnisse, Lagebeziehungen, rechts und links aus Sicht des Betrachters, Lappen, Fissuren, Herzbucht, Bronchien, Gefäße,
+   - **fachliche Aussage:** Stützt die Grafik wirklich die Aussage des Beitrags?
+   - **didaktische Verständlichkeit,**
+   - **Eignung für Heilpraktiker-Posts.**
+4. **Bei Fehlern:**
+   - Jeden Fehler konkret benennen.
+   - Einen Korrekturvorschlag als Prompt für ChatGPT formulieren.
+   - Möglichst auf die korrigierte Grafik warten. Sonst nur mit klar dokumentierten Änderungen weiterbauen.
+5. **Einbau:** Claude baut die Grafik in HTML-Folien ein (`<img src="grafik/…">`).
+   - Erlaubt sind Zuschneiden, Skalieren, Einbetten und die Kombination mit Text und Layout.
+   - Nicht erlaubt ist, die Grafik ohne Grund neu zu interpretieren oder durch eine schwächere SVG-Skizze zu ersetzen.
+6. **Freigabe:** wie oben, ausschließlich durch Mariam.
+
+**Technischer Hinweis:** Der Bildmacher erkennt nur Änderungen an den Folien-Quelltexten. Eine überarbeitete Grafik bekommt daher immer einen neuen Dateinamen (`_v2`), und die Folie wird als neue Fassung angelegt.
 
 ### Sicherheit
 

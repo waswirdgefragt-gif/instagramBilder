@@ -11,7 +11,15 @@
 | 7 | Atemnot: wann 112 | veröffentlicht | 17955556308278699 |
 | 8 | Richtig oder falsch | veröffentlicht | 18154926748535211 |
 | 9 | Pleura (8 Folien) | veröffentlicht | 18108824999348819 |
-| 10 | Vorstellung 3.120 | NICHT veröffentlicht – Instagram-Sperre; 2. Versuch 08.11. 07:47 (Singapur) ebenfalls gesperrt, 3. Versuch nach ca. 10 Std. | – |
+| 10 | Vorstellung 3.120 | DOPPELT veröffentlicht – trotz Sperr-Meldung beide Versuche durchgegangen (21:45 und 23:47 UTC, 07.11.); 3. Versuch gestrichen | 18079338767743050 (DfdLW7Ll6-E), 18100000976674237 (DfdZYB8jOI_) |
 
 Hinweis: Die Beiträge 2–4 wurden gleichzeitig abgeschickt; ihre Reihenfolge im Profil kann vertauscht sein.
-Der erste Pleura-Beitrag (6 Folien, ID 17940428649394252) ist noch online – Mariam löscht ihn in der App.
+Der erste Pleura-Beitrag (6 Folien, ID 17940428649394252) ist laut Medienliste vom 08.11. nicht mehr online.
+
+## Abgleich mit der Medienliste (08.11.2026)
+Ältere Beiträge vom 06.11. zum selben Thema (mit veralteten Zahlen 2.318/444):
+- 17936489145407109 (DfZw6CrFw1m) „Ich habe 3.120 Originalfragen … ausgewertet“ – inhaltlich gleich wie Nr. 10
+- 18130490452873479 (DfZ2Jzwl9yr) „Kennst du das? Stapelweise Altfragen“ – ähnlich wie Nr. 1
+Mindestens ein Exemplar von Nr. 10 muss gelöscht werden; Entscheidung bei Mariam.
+
+**Lehre:** Die Meldung „Application request limit reached“ heißt nicht, dass nichts veröffentlicht wurde. Vor jedem neuen Versuch die Medienliste abrufen (GET /{ig-user-id}/media).

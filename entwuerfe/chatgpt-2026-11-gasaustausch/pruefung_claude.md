@@ -15,3 +15,10 @@ Status: **Korrektur nötig – nicht veröffentlichen.**
 ## Fachlich richtig
 Diffusion passiv entlang des Partialdruckgefälles; hauchdünne Blut-Luft-Schranke; Weg Lungenkapillaren → Venolen → Lungenvenen → linker Vorhof → linke Kammer → Aorta.
 Abgleich intern mit Skript 2 (S. 17) und Kompaktbuch (K2: „Der Gasaustausch findet zwischen Lungenbläschen und Lungenkapillaren statt“, 6×).
+
+# Fassung 2 (07.11.2026, 20:18) – zwei Tafeln in einem Bild
+Status: **fachlich richtig, eine kleine Präzisierung empfohlen; wartet auf Freigabe durch Mary.**
+- Merke-Satz korrigiert (Benennung nach Flussrichtung) ✓; Pfeilfarben einheitlich (O₂ rot, CO₂ blau) ✓; Chat-Rest entfallen ✓.
+- Schichten der Blut-Luft-Schranke (Typ-I-Pneumozyt, verschmolzene Basalmembran, Kapillarendothel) ✓; Weg Kapillaren → Venolen → Lungenvenen → linker Vorhof → linke Kammer → Aorta ✓.
+- Präzisieren: „≈ 0,2–0,6 µm“ gilt nur für die dünnsten Stellen (UZH-Histologie: 200–500 nm an sehr dünnen Stellen, im Mittel ca. 2 µm; MH Hannover/Frontiers 2023: harmonisches Mittel < 1 µm) → „an den dünnsten Stellen nur ca. 0,2–0,5 µm“.
+- Karussell: Folie 1 = Fassung 1 Bild 4 („Wie gelangt Sauerstoff ins Blut?“), Folie 2 = diese Tafel.

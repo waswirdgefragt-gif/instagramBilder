@@ -23,3 +23,5 @@ Der erste Pleura-Beitrag (6 Folien, ID 17940428649394252) ist laut Medienliste v
 Mindestens ein Exemplar von Nr. 10 muss gelöscht werden; Entscheidung bei Mariam.
 
 **Lehre:** Die Meldung „Application request limit reached“ heißt nicht, dass nichts veröffentlicht wurde. Vor jedem neuen Versuch die Medienliste abrufen (GET /{ig-user-id}/media).
+
+**Entscheidung Mariam (08.11.):** Sie löscht in der App DfdZYB8jOI_ (Doppel 23:47 UTC) und DfZw6CrFw1m (alte Vorstellung 06.11.); DfdLW7Ll6-E bleibt. Der alte Altfragen-Beitrag DfZ2Jzwl9yr bleibt und bekommt eine korrigierte Bildunterschrift (2.318 → rund 2.300).
